@@ -476,7 +476,7 @@ footer {
           text-align: center; }
       footer .content-ro .form-card .form-body {
         padding: 20px;
-        border-top: 1px solid #cccccc5; }
+        border-top: 1px solid #cccccc; }
         footer .content-ro .form-card .form-body input {
           border-radius: 0px;
           height: 47px; }
@@ -503,24 +503,23 @@ footer {
   position: absolute;
   margin-top: -112px; }
 
-/* ===================================== donate  CSS ================================== */
-.donate {
+/* ===================================== who-can-donate  CSS ================================== */
+.who-can-donate {
   padding: 50px;
   background-color: #f1f1f152; }
   @media screen and (max-width: 940px) {
-    .donate {
+    .who-can-donate {
       padding: 30px 10px; } }
   @media (min-width: 478px) {
-    .donate .gg-element:nth-child(3n+0) {
+    .who-can-donate .gg-element:nth-child(3n+0) {
       grid-row-end: span 1; } }
 
-      .donate li , p {
+      .who-can-donate li , p {
         padding: 5px;
         font-size: large;
-
       }
 
-/* ===================================== Our Blog  CSS ================================== */
+/* ===================================== Donors  CSS ================================== */
 .donors-section {
   background-color: #cccccc2e;
   padding: 50px;
