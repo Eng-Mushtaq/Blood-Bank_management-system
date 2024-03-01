@@ -190,20 +190,7 @@ body {
     .btn-success a{
       color: #FFF;
     }
-
-.btn-primary {
-  background-color: #de1f26;
-  border-color: #de1f26; }
-  .btn-primary:hover {
-    background-color: #de1f26 !important;
-    border-color: #de1f26 !important; }
-  .btn-primary:active {
-    background-color: #de1f26 !important;
-    border-color: #de1f26 !important; }
-  .btn-primary:focus {
-    background-color: #de1f26 !important;
-    border-color: #de1f26 !important;
-    box-shadow: none !important; }
+/*  */
 
 .btn {
   box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
