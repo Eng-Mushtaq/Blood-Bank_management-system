@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 01, 2024 at 11:45 PM
+-- Generation Time: Mar 04, 2024 at 01:24 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -40,12 +40,12 @@ CREATE TABLE `address` (
 --
 
 INSERT INTO `address` (`id`, `city`, `street`, `state`, `user_id`) VALUES
-(6, 'thamar', 'sanaa street', 'thamar', 12),
-(7, 'sanaa', 'sanaa', 'sanaa', 13),
-(8, 'Dhamar', 'Sana\'a street , Dhamar City, Yemen', 'Asir', 14),
-(9, 'thamar', 'thamar', 'yemen', 15),
-(10, 'thamar', 'thamar', 'lkjhgfds', 16),
-(11, 'thamar', 'thamar', 'yemen', 17);
+(6, 'Abha', 'main street', 'Abha', 12),
+(7, 'Jeddah', 'King Kh', 'jeddah', 13),
+(8, 'Ryadh', 'ryadh street ', 'Asir', 14),
+(9, 'Makkah', 'makkah', '', 15),
+(10, 'Tabuok', 'Tabuk', 'state', 16),
+(11, 'jazan', 'asir', 'jazan', 17);
 
 -- --------------------------------------------------------
 
@@ -123,14 +123,14 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `age`, `phone`, `gender`, `bloodtype`, `usertype`, `image_profile`) VALUES
-(3, 'User 3', 'user3@example.com', 'password3', 28, '3456789012', 0, 'B+', 1, './assets/images/slider/women.jpg'),
-(11, 'Bahz Abbas', 'bahzabbasismaeel@gmail.com', '', NULL, '017162150', NULL, NULL, 1, NULL),
-(12, 'abc', 'bahz@gmail.com', '', NULL, '7777777777', NULL, NULL, 0, NULL),
-(13, 'mushtaq', 'mushtaq@gmail.com', '', NULL, '123456789', NULL, NULL, 1, NULL),
-(14, 'Mushtaq Hojira', 'eng.mushtaq.hejaira@gmail.com', '', NULL, '+967772089560', NULL, NULL, 1, NULL),
-(15, 'blood Donation', 'donation@gmail.com', '', NULL, '12345678', NULL, NULL, 1, NULL),
+(3, 'Wehad Mohammed', 'Wehad@example.com', 'password3', 28, '3456789012', 0, 'B+', 1, './assets/images/slider/women.jpg'),
+(11, 'Mohammed', 'Moh@gmail.com', '', NULL, '017162150', NULL, NULL, 1, NULL),
+(12, 'uaer', 'user@gmail.com', '', NULL, '555555555', NULL, NULL, 0, NULL),
+(13, 'ALi Ahmed', 'ali@gmail.com', '', NULL, '123456789', NULL, NULL, 1, NULL),
+(14, 'Anwar', 'anwar@gmail.com', '', NULL, '+967772089560', NULL, NULL, 1, NULL),
+(15, 'Abdulrahman', 'abd@gmail.com', '', NULL, '12345678', NULL, NULL, 1, NULL),
 (16, 'nnn', 'n@gmail.com', '', NULL, '017162150', NULL, 'A-', 1, NULL),
-(17, 'Bahz Abbas', 'bahzabbas@gmail.com', '', NULL, '017162150', 0, 'B-', 0, NULL);
+(17, 'Salem', 'Salem@gmail.com', '', NULL, '017162150', 0, 'B-', 0, NULL);
 
 --
 -- Indexes for dumped tables

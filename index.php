@@ -262,14 +262,17 @@
             </div>
         </div>
     </div>
-    <!-- ################# Donors Start Here #######################--->
+
+    
+    <!-- ################# Donors Start Here #######################- -->
     <section id="donors" class="donors-section contaienr-fluid">
     <div class="container-fluid ">
         <div class="session-title ">
             <h2>Donors List</h2>
         </div>
+        
     
-    <div class="row m-3">
+    <div class="row m-3 ">
     <?php
 // Database connection parameters
 include('db_connection.php');
@@ -348,6 +351,7 @@ if ($stmt->rowCount() > 0) {
             </div>
           </section>
         </div>
+        
         <?php
     }
 } else {
