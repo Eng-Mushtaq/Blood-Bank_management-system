@@ -16,44 +16,14 @@
 
 <body>
     <header class="continer-fluid ">
-        <!-- <div class="header-top">
-                <div class="container">
-                    <div class="row col-det">
-                        <div class="col-lg-6 d-none d-lg-block">
-                            <ul class="ulleft">
-                                <li>
-                                    <i class="far fa-envelope"></i>
-                                    sales@smarteyeapps.com
-                                    <span>|</span></li>
-                                <li>
-                                    <i class="far fa-clock"></i>
-                                    Service Time : 12:AM</li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <ul class="ulright">
-                                <li>
-                                    <i class="fas fa-cloud-upload-alt"></i>
-                                    Upload Video
-                                    <span>|</span></li>
-                                <li>
-                                    <i class="fas fa-user"></i>
-                                    Login</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         <div id="menu-jk" class="header-bottom">
             <div class="container">
                 <div class="row nav-row">
                     <div class="col-md-1 logo mb-0 p-0">
-
                         <img src="assets/images/slider/logo.png " alt="">
                     </div>
                     <div class="col-md-11 nav-col">
                         <nav class="navbar navbar-expand-lg navbar-light">
-
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
@@ -67,8 +37,6 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="#who-we-are">Who are we ?</a>
                                     </li>
-
-                                
                                     <li class="nav-item">
                                         <a class="nav-link" href="#donors">Donors</a>
                                     </li>
@@ -94,12 +62,10 @@
     <!-- ################# Slider Starts Here#######################--->
 
     <div class="slider-detail">
-
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -144,7 +110,8 @@
 
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-cont
+                rol-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
@@ -239,7 +206,6 @@
                                 <li>&#8226; meet all donor eligibility criteria (we will check this with you before you
                                     donate)</li>
                             </ul>
-
                             <h4>Who can't donate blood</h4>
                             <p>You can't donate blood if you:</p>
                             <ul class="list-unstyled m-3 ">
@@ -256,9 +222,7 @@
                                 </ul>
                         </article>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </div>
@@ -368,7 +332,6 @@ $conn = null;
 
 
     <!--################### Book Appointment Request Starts Here #######################--->
-
     <section id="book-appointment" class="pt-100 pb-100 position-relative z-index book-appointment">
         <div class="container">
             <h2 class="text-center">Request a Blood Donor</h2>
@@ -383,8 +346,6 @@ $conn = null;
                                 <label for="name">Name <sup class="text--danger">*</sup></label>
                                 <input type="text" name="name" id="name" value="" placeholder="Full name"
                                     class="form-control" maxlength="80" required="">
-
-
                                     <input type="hidden" name="isDonor" value="0">
                             </div>
                             <div class="form-group col-lg-6">
@@ -412,10 +373,7 @@ $conn = null;
                                 <label for="street">Street <sup class="text--danger">*</sup></label>
                                 <input type="text" name="street" id="street" placeholder="Enter street name"
                                     class="form-control" maxlength="40" required="">
-
                             </div>
-
-
                         </div>
 
                         <h5 class="tmb-3">Others Information</h5>
@@ -457,13 +415,11 @@ $conn = null;
                                 <input type="number" class="form-control" id="totalDonate" name="totalDonate"
                                     placeholder="Enter total blood donate" required>
                             </div>
-
                             <div class="form-group col-lg-6">
                                 <label for="lastDonate">Last Donate* <sup class="text--danger">*</sup></label>
                                 <input type="date" class="form-control" id="lastDonate" name="lastDonate"
                                     placeholder="Last Blood Donate Date" required>
                             </div>
-
                             <div class="form-group col-lg-12">
                                 <label for="aboutYou">About You* <sup class="text--danger">*</sup></label>
                                 <textarea class="form-control" id="aboutYou" name="aboutYou" rows="3"
@@ -587,7 +543,6 @@ $conn = null;
     <!--*************** Footer  Starts Here *************** -->
     <footer id="contact" class="container-fluid">
         <div class="container">
-
             <div class="row content-ro">
                 <div class="col-lg-4 col-md-12 footer-contact">
                     <h2>Contact Informatins</h2>
@@ -626,7 +581,6 @@ $conn = null;
                             <li>Pricing</li>
                             <li>Gallery</li>
                             <li>eatures</li>
-
                         </ul>
                     </div>
                     <div class="row no-margin mt-1">
@@ -636,11 +590,8 @@ $conn = null;
                             <li>Edu Smart</li>
                             <li>Smart Event</li>
                             <li>Smart School</li>
-
-
                         </ul>
                     </div>
-
                 </div>
                 <div class="col-lg-4 col-md-12 footer-form">
                     <div class="form-card">
